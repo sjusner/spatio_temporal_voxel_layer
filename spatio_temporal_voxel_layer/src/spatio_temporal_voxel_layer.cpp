@@ -602,7 +602,7 @@ void SpatioTemporalVoxelLayer::reset(void)
 
   observation_buffers_iter it = _observation_buffers.begin();
   for (; it != _observation_buffers.end(); ++it) {
-      (*it)->ResetLastUpdatedTime();
+    (*it)->ResetLastUpdatedTime();
   }
 }
 
